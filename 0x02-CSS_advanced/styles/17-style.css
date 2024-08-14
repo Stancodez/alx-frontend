@@ -1,0 +1,74 @@
+/* Your custom styles go here */
+
+/* Styles for .section-tagline */
+.section-tagline {
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Container class styling */
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Custom properties for padding and alignment */
+:root {
+  --section-padding: 5rem 0;
+  --section-header-padding: 0 0 3rem;
+  --section-body-padding: 0 0 3rem;
+  --section-footer-padding: 3rem 0 0;
+  --section-footer-align: center;
+  --footer-padding: 5rem 0 1rem;
+}
+
+/* Section class styling */
+.section {
+  padding: var(--section-padding);
+}
+
+/* Section header class styling */
+.section-header {
+  padding: var(--section-header-padding);
+}
+
+/* Section body class styling */
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+/* Section footer class styling */
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+/* Footer class styling */
+.footer {
+  padding: var(--footer-padding);
+}
+
+/* Anchor element styles */
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+a:visited {
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: var(--color-light-grey);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
