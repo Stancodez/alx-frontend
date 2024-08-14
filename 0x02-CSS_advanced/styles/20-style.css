@@ -1,0 +1,6 @@
+/* Styling for the new row after each .row element */
+.row::after {
+  content: ""; /* No content */
+  display: table; /* Displayed as a table */
+  clear: both; /* Do not allow any floating elements on either side */
+}
