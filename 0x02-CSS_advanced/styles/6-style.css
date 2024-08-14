@@ -1,0 +1,63 @@
+:root {
+  /* Color properties */
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+
+  /* Font-family properties */
+  --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Font-size properties */
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.6rem;
+  --font-size-large: 1.8rem;
+  --font-size-x-large: 2.3rem;
+  --font-size-xx-large: 4.8rem;
+
+  /* Font-weight properties */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+/* Set the base font size for the HTML document */
+html {
+  font-size: 62.5%; /* This makes 1rem = 10px */
+}
+
+/* Set the base font size, font-family, and font-weight for the body */
+body {
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
+}
+
+/* Heading font-family and font-weight */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Anchor styles */
+a {
+  color: var(--text-color);
+}
+
+/* Visually hidden elements */
+.visually-hidden {
+  display: none;
+}
+
+/* Card category styles */
+.card-category {
+  color: var(--color-primary);
+}
+
+/* Section tagline styles */
+.section-tagline {
+  color: var(--color-primary);
+}
