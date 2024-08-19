@@ -1,0 +1,29 @@
+/* ... other styles ... */
+
+.hero-homepage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/hero-background.jpg');
+  background-position: 65% 8rem; /* Updated value */
+  background-size: 90rem auto; /* Updated value */
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: var(--color-light);
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.section-hero .section-inner {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  min-height: 35vh; /* Updated value */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ... other styles ... */

@@ -1,0 +1,6 @@
+/* Updated .container selector */
+.container {
+  max-width: 90rem; /* Changed from width to max-width */
+  margin: 0 auto;
+  padding: 0 2rem;
+}
